@@ -1,0 +1,75 @@
+* {
+    border: 1px solid red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* 자식 요소들을 세로 방향으로 정렬 */
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+#title {
+    width:1100px;
+    display: flex; /* flexbox를 사용하여 정렬 */
+    justify-content: space-between; /* titleleft와 titleright를 양 끝으로 정렬 */
+}
+
+
+#titleleft {
+    padding:10px;
+}
+
+#titlefontleft {
+    font-size:24px;
+    font-weight:bold;
+}
+
+#titleright {
+    margin:7px;
+    padding:10px;
+}
+
+#paddingA {
+    padding: 0 10px;
+    margin: 6px;
+}
+
+#introduceMe {
+    width:1100px;
+}
+
+#myname {
+    font-size:45px;
+    margin:60px;
+    text-align:center;
+}
+
+#introduce {
+    font-size: 18px;
+    margin: 13px;
+    text-align:center;
+}
+
+hr {
+    width:5%;
+}
+
+.btn.green.rounded   {
+    background-color: rgb(255, 105, 19);
+    border-radius: 26px;
+}
+
+.btn {
+    position: relative;
+    border: 0;
+    padding: 16px 30px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+  }
+
+a[class*="btn"] {text-decoration: none;}
+input[class*="btn"], 
+button[class*="btn"] {border: 0;}
